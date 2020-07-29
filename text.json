@@ -1,0 +1,21 @@
+{
+  "update_id": 372935332,
+  "message": {
+    "message_id": 224,
+    "from": {
+      "id": 516449722,
+      "is_bot": false,
+      "first_name": "Иван",
+      "last_name": "Надин",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 516449722,
+      "first_name": "Иван",
+      "last_name": "Надин",
+      "type": "private"
+    },
+    "date": 1595913846,
+    "text": "hellp"
+  }
+}

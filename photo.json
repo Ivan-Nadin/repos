@@ -1,0 +1,43 @@
+{
+  "update_id": 372935369,
+  "message": {
+    "message_id": 317,
+    "from": {
+      "id": 516449722,
+      "is_bot": false,
+      "first_name": "Иван",
+      "last_name": "Надин",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 516449722,
+      "first_name": "Иван",
+      "last_name": "Надин",
+      "type": "private"
+    },
+    "date": 1596015558,
+    "photo": [
+      {
+        "file_id": "AgACAgIAAxkBAAIBPV8hQ8YuQ85cahD58UhCgM9cndApAAJzrjEb3j34SIqwGStTbgyVSB0Iki4AAwEAAwIAA20AAzhUBAABGgQ",
+        "file_unique_id": "AQADSB0Iki4AAzhUBAAB",
+        "file_size": 18072,
+        "width": 320,
+        "height": 214
+      },
+      {
+        "file_id": "AgACAgIAAxkBAAIBPV8hQ8YuQ85cahD58UhCgM9cndApAAJzrjEb3j34SIqwGStTbgyVSB0Iki4AAwEAAwIAA3kAAzVUBAABGgQ",
+        "file_unique_id": "AQADSB0Iki4AAzVUBAAB",
+        "file_size": 63002,
+        "width": 1024,
+        "height": 684
+      },
+      {
+        "file_id": "AgACAgIAAxkBAAIBPV8hQ8YuQ85cahD58UhCgM9cndApAAJzrjEb3j34SIqwGStTbgyVSB0Iki4AAwEAAwIAA3gAAzZUBAABGgQ",
+        "file_unique_id": "AQADSB0Iki4AAzZUBAAB",
+        "file_size": 70874,
+        "width": 800,
+        "height": 534
+      }
+    ]
+  }
+}

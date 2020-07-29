@@ -1,0 +1,62 @@
+if request.method == 'POST':
+        r = request.get_json()
+        #write_json(r)
+        chat_id = r['message']['chat']['id']
+        message = r['message']['text']
+        if '/usd' in message:
+            send_message(chat_id,get_currency())
+        return jsonify(r)
+
+
+
+pkill -9 -f main.py
+
+
+ ~/ngrok http 5000
+
+https://pynative.com/python-postgresql-tutorial/#:~:text=Use%20the%20connect()%20method,connection%20after%20your%20work%20completes.
+
+https://kb.objectrocket.com/postgresql/how-to-list-users-in-postgresql-782
+
+https://khashtamov.com/ru/postgresql-python-psycopg2/
+
+https://kb.objectrocket.com/postgresql/upload-a-file-to-postgres-with-python-1112
+
+https://stackoverflow.com/questions/5420789/how-to-install-psycopg2-with-pip-on-python
+
+https://stackoverflow.com/questions/34484066/create-a-postgres-database-using-python
+
+https://stackoverflow.com/questions/44324944/how-to-decode-jpg-image-from-memory
+
+https://stackoverflow.com/questions/17967320/python-opencv-convert-image-to-byte-string
+
+https://stackoverflow.com/questions/44035217/pydub-how-to-change-frame-rate-without-changing-playback-speed
+
+https://stackoverflow.com/questions/44511958/python-postgresql-create-database-if-not-exists-is-error
+
+https://github.com/jiaaro/pydub/issues/270
+
+sudo -u postgres psql
+could not change directory to "/home/ivan": Отказано в доступе
+psql (12.2 (Ubuntu 12.2-4))
+Type "help" for help.
+
+postgres=# create database test
+postgres-# \l
+postgres-# create database test_base;
+ERROR:  syntax error at or near "create"
+LINE 2: create database test_base;
+        ^
+postgres=# create database test_base;
+CREATE DATABASE
+postgres=# \l
+postgres=# drop database test_base
+postgres-# \l
+postgres-# drop database test_base;
+ERROR:  syntax error at or near "drop"
+LINE 2: drop database test_base;
+        ^
+postgres=# drop database test_base;
+DROP DATABASE
+postgres=# \l
+
