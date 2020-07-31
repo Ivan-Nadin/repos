@@ -8,6 +8,12 @@ if request.method == 'POST':
         return jsonify(r)
 
 
+git remote add origin https://github.com/SiberianSquirrel/repos.git
+
+git push -u origin master
+
+https://habr.com/ru/company/ruvds/blog/440654/
+
 
 pkill -9 -f main.py
 
@@ -35,6 +41,16 @@ https://stackoverflow.com/questions/44035217/pydub-how-to-change-frame-rate-with
 https://stackoverflow.com/questions/44511958/python-postgresql-create-database-if-not-exists-is-error
 
 https://github.com/jiaaro/pydub/issues/270
+
+
+
+export PGPASSWORD='1';pg_dump -U postgres test > mydb.dump
+
+pg_dump --dbname=postgresql://postgres:1@127.0.0.1:5432/telebot_db > mydb.dump
+
+
+
+
 
 sudo -u postgres psql
 could not change directory to "/home/ivan": Отказано в доступе

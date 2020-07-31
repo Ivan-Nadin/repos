@@ -1,0 +1,5 @@
+$ cat .gitignore
+
+.ipynb_checkpoints
+postgres.ipynb
+/venv
