@@ -1,5 +1,9 @@
 $ cat .gitignore
 
-.ipynb_checkpoints
-postgres.ipynb
+/.ipynb_checkpoints
+/postgres.ipynb
 /venv
+/app/__pycache__
+*.json
+*.png
+*.jp*
